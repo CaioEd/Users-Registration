@@ -1,6 +1,6 @@
  <h1 align="center">Users Registartion</h1>
  <p align="center"> <strong></strong> </p>
-<img  src="print-site.jpg" alt="print do site">
+<img  src="print-site1.jpg" alt="print do site">
  <br>
 <h2>Tecnologies used in this project </h2>
 <ul>
