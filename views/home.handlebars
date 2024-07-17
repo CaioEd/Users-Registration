@@ -1,0 +1,19 @@
+<h1>Cadastro de Usuários</h1>
+<form action="/users/insertuser" method="POST" class="form">
+    <div class="form-control">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+    </div>
+
+    <div class="form-control">
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade">
+    </div>
+
+    <div class="form-control">
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" maxlength="14">
+    </div>
+
+    <input class="button" type="submit" value="Cadastrar">
+</form>

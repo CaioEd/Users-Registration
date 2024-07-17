@@ -1,0 +1,16 @@
+<div id="user-page">
+    <a href="/users">Voltar</a>
+    <div class="container">
+        <h1>{{user.nome}}</h1>
+        <p>Este usuário tem {{user.idade}} anos.</p>
+        <p>O CPF do usuário é {{user.cpf}}.</p>
+
+        <div class="actions">
+            <a href="/users/edit/{{user.id}}">Editar</a>
+
+            <form action="/users/remove/{{user.id}}" method="POST">
+                <input type="submit" value="Excluir">
+            </form>
+        </div>
+    </div>
+</div>

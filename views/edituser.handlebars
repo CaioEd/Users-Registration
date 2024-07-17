@@ -1,0 +1,20 @@
+<h1>Editar usuário:</h1>
+<form action="/users/updateuser" method="POST" class="form">
+    <input type="hidden" name="id" value="{{book.id}}">
+    <div class="form-control">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" value="{{user.nome}}">
+    </div>
+
+    <div class="form-control">
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" value="{{user.idade}}">
+    </div>
+
+    <div class="form-control">
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" value="{{user.cpf}}">
+    </div>
+
+    <input type="submit" value="Editar">
+</form>
